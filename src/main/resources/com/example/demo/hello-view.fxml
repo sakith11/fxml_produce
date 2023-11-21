@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <TextArea fx:id="txtinput" layoutX="14.0" layoutY="7.0" prefHeight="309.0" prefWidth="846.0" />
+      <TextArea fx:id="txtoutput" layoutX="14.0" layoutY="375.0" prefHeight="379.0" prefWidth="846.0" />
+      <Button fx:id="generate" layoutX="378.0" layoutY="323.0" mnemonicParsing="false" onAction="#onGenerateClick" text="Generate" />
+      <Button fx:id="rand" layoutX="559.0" layoutY="323.0" mnemonicParsing="false" onAction="#onRandomClick" text="Random" />
+   </children>
+</Pane>
